@@ -8,12 +8,5 @@ if (A >= B)
 {
     Console.WriteLine($"Плата {X}");
 }
-else if (A < B)
-{
-    Console.WriteLine("Плата за использование сверх тарифа");
-    int V = Convert.ToInt32(Console.ReadLine());
-    Console.WriteLine($"Плата {V}");
-}
-
 
 
